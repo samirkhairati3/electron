@@ -98,10 +98,6 @@ extern const char kHiddenPage[];
 extern const char kSpellcheck[];
 #endif
 
-#if BUILDFLAG(ENABLE_REMOTE_MODULE)
-extern const char kEnableRemoteModule[];
-#endif
-
 }  // namespace options
 
 // Following are actually command line switches, should be moved to other files.
